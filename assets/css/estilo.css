@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jacquard+12&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image:url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2020/05/05/15886971969754.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    font-family: "Cormorant Garamond", serif;
+}
+
+
+
+h1{
+    color: #080706;
+    background-color:rgba(229, 208, 170, 0.783) ;
+    padding: 10px;
+    border-radius: 100px;
+    text-align: center;
+    border: solid black;
+    border-width: 10px;
+    border-color: black;
+}
+p{
+    color: #0000009d;
+    background-color:rgba(229, 208, 170, 0.783) ;
+    padding: 10px;
+    border-radius: 100px;
+    text-align: center;
+    border: outset;
+    border-width: 10px;
+    border-color: black;
+    font-size:larger;
+    
+}
+.pie_pagina{
+    clear: both;
+    background-color: black;
+    color: #e00202;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;;
+    height: 150px;
+
+}
+.menu{
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu ul li{
+
+display: inline;
+list-style: none;
+padding: 5px;
+background-color: rgb(133, 129, 129);
+border-style: solid;
+border-radius: 100px ;
+border-color: black;
+margin-left: 3px;
+box-shadow: 5px 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li a:hover{
+color: darkviolet;
+font-size: 1.3em;
+}
+
+.info{
+    float: left;
+    width: 45%;
+}
+
+.rsocial{
+    float: left;
+    width: 45%;
+}
+.cabecera img{
+    width: 500px;
+    text-align: center;
+    border: outset;
+    border-color: rgb(169, 187, 185);
+}
+.principal img{
+    text-align: left;
+    border: outset;
+    width: 400px;
+    border-color: black;
+}
+input {
+    color:rgba(229, 208, 170, 0.783) ; 
+    border: outset;
+    border-color:rgb(169, 187, 185);
+    background-color: rgb(169, 187, 185);
+}
+h5{
+    border: outset;
+    background-color: rgb(169, 187, 185);
+    border-color: bisque;
+    border-radius: 400px;
+    font-size: large;
+    padding: 5px;
+}
+h3{
+    color: #080706;
+    background-color:rgba(229, 208, 170, 0.783) ;
+    padding: 10px;
+    border-radius: 100px;
+    text-align: center;
+    border: outset black;
+    border-width: 10px;
+    border-color: black;
+}
+label{
+    border: outset;
+    border-color: bisque;
+    background-color: rgb(169, 187, 185);;
+
+}
+textarea{
+    background-color: bisque;
+    border-color:rgb(169, 187, 185);
+    border: outset;
+}
+input [type]{
+    color: #e00202;
+}
